@@ -1,0 +1,160 @@
+body
+   font-family: 'SF Pro Display', sans-serif
+   background: white
+   font-weight: 400
+   font-size: 16px
+   line-height: 24px
+   color: rgb(20, 21, 26)
+a
+   text-decoration: none
+   box-sizing: border-box
+   transition: 0.5s !important
+   &:hover 
+      color: $vio
+.container
+   padding: 0 15px
+   max-width: 1208px
+   margin: 0 auto
+   @media ( max-width: 1199px )
+      max-width: 960px !important
+   @media (max-width: 991px)
+      max-width: 720px !important
+   @media (max-width: 767px)
+      max-width: 540px !important
+.d-flex
+   display: flex
+.body-wrap
+   overflow: hidden
+   position: relative
+   display: flex
+   flex-direction: column
+   min-height: 100vh
+footer
+   margin-top: auto
+h1
+   color: rgba(255, 255, 255, 0.9)
+   font-size: 48px
+   font-weight: 1000
+   font-style: italic
+   line-height: 56px
+   margin: 0
+   margin-bottom: 12px
+   letter-spacing: -0.03rem
+h2 
+   margin: 0
+   color: rgb(20, 21, 26)
+   font-size: 48px
+   font-weight: 700
+   line-height: 56px
+   letter-spacing: -0.03rem
+   span 
+      color: $vio
+.sub 
+   color: rgba(13, 17, 38, 0.4)
+   font-size: 18px
+   font-weight: 510
+   letter-spacing: 0.035rem
+   line-height: 26px
+   margin-top: 8px
+ul 
+   margin: 0
+   padding: 0
+   list-style-type: none
+p
+   margin: 0
+.svg, 
+   transition: 0.5s ease
+a
+   transition: color 0.5s ease
+   box-sizing: border-box
+li
+   a
+      transition: color 0.5s ease
+button
+   cursor: pointer
+   box-sizing: border-box
+textarea
+   transition: border 0.5s
+   box-sizing: border-box
+   &:focus
+      transition: border 0.5s
+      outline: none
+      border: 1px solid $vio !important
+input
+   transition: 0.5s
+   box-sizing: border-box
+   border: 1px solid #fff
+   color: white
+   &:disabled
+      pointer-events: none
+      opacity: 0.5
+   &:focus 
+      border: 1px solid $vio !important
+      transition: 0.5s
+   &:focus-visible
+      outline: initial
+path
+   transition: fill 0.5s, stroke 0.5s, fill-opacity 0.5s
+div 
+   box-sizing: border-box
+.icon 
+   transition: fill 0.5s, stroke 0.5s
+html * 
+   scrollbar-width: thin
+   scrollbar-color: blue $vio
+*::-webkit-scrollbar,
+html *::-webkit-scrollbar 
+   height: 4px
+   width: 4px
+*::-webkit-scrollbar-track,
+html *::-webkit-scrollbar-track 
+   background: #E7E7E7
+   border-radius: 3px
+*::-webkit-scrollbar-thumb,
+html *::-webkit-scrollbar-thumb 
+   background-color: $vio
+   border-radius: 6px
+.btn 
+   display: flex
+   align-items: center
+   justify-content: center
+   background: transparent
+   position: relative
+   overflow: hidden
+   width: 181px
+   height: 48px
+   border-radius: 12px
+   color: rgba(255, 255, 255, 0.9)
+   font-size: 16px
+   font-weight: 510
+   line-height: 24px
+   &:hover 
+      color: white
+      &:after 
+         opacity: 1
+      &:before 
+         opacity: 1
+         right: 0px
+         width: 100%
+   &::after
+      content: ""
+      position: absolute
+      height: 100%
+      width: 100%
+      box-sizing: border-box
+      background: linear-gradient(45.00deg, rgb(255, 92, 92) 0%,rgb(243, 144, 198) 49.527%,rgb(135, 9, 166) 100%)
+      z-index: -2
+      right: 0
+      transition: 0.7s
+      opacity: 1
+   &:before 
+      content: ""
+      position: absolute
+      height: 100%
+      width: 0%
+      box-sizing: border-box
+      background: linear-gradient(45.00deg, rgb(135, 9, 166) 0%,rgb(243, 144, 198) 50.473%,rgb(255, 92, 92) 100%)
+      right: 0px
+      z-index: -1
+      transition: 0.7s
+      opacity: 0

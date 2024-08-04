@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+	<meta charset="UTF-8">
+
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<meta name="format-detection" content="telephone=no">
+	<meta name="format-detection" content="date=no">
+	<meta name="format-detection" content="address=no">
+	<meta name="format-detection" content="email=no">
+	<meta name="apple-mobile-web-app-status-bar-style" content="default">
+
+	<title>Drskat</title>
+	<meta name="keywords" content="">
+	<meta name="description" content="">
+	<!-- <link rel="icon" href="/img/favicon.svg" type="image/x-icon">
+	<link rel="shortcut icon" href="/img/favicon.svg" type="image/x-icon"> -->
+	<meta property="og:locale" content="ru-Ru">
+	<meta property="og:type" content="website">
+	<meta property="og:title" content="">
+	<meta property="og:description" content="">
+
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+	<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU" type="text/javascript"></script>
+	<link rel="stylesheet" type="text/css" href="css/main.css">
+
+</head>
+
+<body class="body">
+	<div class="body-wrap">
+		<header class="header" id="header">
+			<nav class="nav">
+				<div class="container">
+					<div class="nav__box d-flex">
+						<a href="main.html" class="nav__logo">
+							<img src="/img/logo.svg" alt="">
+						</a>
+						<div class="adaptive__info">
+							<a href="tel:+79251330303" class="nav__tel">
+								+7 (925) 133-03-03
+							</a>
+							<a href="#" class="adaptive__call btn">
+								Перезвоните мне
+							</a>
+						</div>
+						<div class="nav__content">
+							<div class="nav__info d-flex">
+								<div class="nav__item d-flex">
+									<img src="/img/icon1.svg" alt="">
+									<p>
+										Ул. Нижние поля 29с1
+									</p>
+								</div>
+								<div class="nav__item d-flex">
+									<img src="/img/icon1.svg" alt="">
+									<p>
+										Ул. 9 Соколиной горы 8с8
+									</p>
+								</div>
+								<div class="nav__item d-flex">
+									<img src="/img/icon1.svg" alt="">
+									<p>
+										Ул. 9 Парковая
+									</p>
+								</div>
+							</div>
+							<div class="nav__row d-flex">
+								<ul class="nav__list">
+									<li>
+										<a href="#free" class="go_to">
+											Услуги
+										</a>
+									</li>
+									<li>
+										<a href="#photo" class="go_to">
+											Фото
+										</a>
+									</li>
+									<li>
+										<a href="#calc" class="go_to">
+											Онлайн-просчет
+										</a>
+									</li>
+									<li>
+										<a href="#rev" class="go_to">
+											Отзывы
+										</a>
+									</li>
+									<li>
+										<a href="#contacts" class="go_to">
+											Адреса сервисов
+										</a>
+									</li>
+								</ul>
+								<a href="tel:+79251330303" class="nav__tel d-flex">
+									<img src="/img/icon2.svg" alt="">
+									<p>
+										+7 (925) 133-03-03
+									</p>
+								</a>
+							</div>
+						</div>
+					</div>
+					<div class="nav__bottom d-flex" id="nav__bottom">
+						<a href="#" class="order__btn btn btn_2" target="blank">
+							Написать в Telegram <img src="/img/new3.svg" alt="" class="svg">
+						</a>
+						<a href="#" class="order__btn btn btn_2" target="blank">
+							Написать в Telegram <img src="/img/new4.svg" alt="" class="svg">
+						</a>
+					</div>
+				</div>
+			</nav>
+			<div class="menu-btn" id="menu-btn">
+			</div>
+			<div class="menu">
+				<ul class="nav__list">
+					<li>
+						<a href="#free" class="go_to">
+							Услуги
+						</a>
+					</li>
+					<li>
+						<a href="#photo" class="go_to">
+							Фото
+						</a>
+					</li>
+					<li>
+						<a href="#calc" class="go_to">
+							Онлайн-просчет
+						</a>
+					</li>
+					<li>
+						<a href="#rev" class="go_to">
+							Отзывы
+						</a>
+					</li>
+					<li>
+						<a href="#contacts" class="go_to">
+							Адреса сервисов
+						</a>
+					</li>
+				</ul>
+			</div>
+			<div class="container">
+				<div class="header__box">
+					<img src="/img/car.png" alt="" class="header__pic">
+					<div class="header__content">
+						<h1>
+							Удаление катализаторов
+						</h1>
+						<p class="header__text">
+							У нас вы можете бесплатно удалить катализатор, дорого нам продать, установить качественные
+							запчасти, а также сделать чип-тюнинг, на всё это вы получите гарантию на 24 месяца
+						</p>
+						<a href="#" class="header__btn btn">
+							Узнать условия
+						</a>
+						<div class="header__row d-flex">
+							<div class="header__item d-flex">
+								<img src="/img/icon3.svg" alt="">
+								<div class="header__info">
+									<p class="header__name">
+										ГАРАНТИЯ
+									</p>
+									<p class="header__el">
+										НА ГОД
+									</p>
+								</div>
+							</div>
+							<div class="header__item d-flex">
+								<img src="/img/icon4.svg" alt="">
+								<div class="header__info">
+									<p class="header__name">
+										ДОРОГО
+									</p>
+									<p class="header__el">
+										КУПИМ
+									</p>
+								</div>
+							</div>
+							<div class="header__item d-flex">
+								<img src="/img/icon5.svg" alt="">
+								<div class="header__info">
+									<p class="header__name">
+										ДЕЛАЕМ
+									</p>
+									<p class="header__el">
+										БЫСТРО
+									</p>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<div class="header-new q">
+					<p class="header-new__sub">
+						Заслужили доверие и <br> получили высокий рейтинг <br>
+						в независимых источниках
+					</p>
+					<div class="header-new__row q">
+						<div class="header-new__item q">
+							<div class="header-new__top q">
+								<img src="/img/new2.png" alt="" class="header-new__icon">
+								<div class="header-new__stars q">
+									<img src="/img/star.svg" alt="">
+									<img src="/img/star.svg" alt="">
+									<img src="/img/star.svg" alt="">
+									<img src="/img/star.svg" alt="">
+									<img src="/img/star.svg" alt="">
+								</div>
+								<p>
+									5,0 <span>/5</span>
+								</p>
+							</div>
+							<p class="header-new__text">
+								Рейтинг организации в Яндексе
+							</p>
+						</div>
+						<div class="header-new__item q">
+							<div class="header-new__top q">
+								<img src="/img/new3.png" alt="" class="header-new__icon">
+								<div class="header-new__stars q">
+									<img src="/img/star.svg" alt="">
+									<img src="/img/star.svg" alt="">
+									<img src="/img/star.svg" alt="">
+									<img src="/img/star.svg" alt="">
+									<img src="/img/star.svg" alt="">
+								</div>
+								<p>
+									5,0 <span>/5</span>
+								</p>
+							</div>
+							<p class="header-new__text">
+								Рейтинг организации в 2GIS
+							</p>
+						</div>
+						<div class="header-new__item q">
+							<div class="header-new__top q">
+								<img src="/img/new4.png" alt="" class="header-new__icon">
+								<div class="header-new__stars q">
+									<img src="/img/star.svg" alt="">
+									<img src="/img/star.svg" alt="">
+									<img src="/img/star.svg" alt="">
+									<img src="/img/star.svg" alt="">
+									<img src="/img/star.svg" alt="">
+								</div>
+								<p>
+									5,0 <span>/5</span>
+								</p>
+							</div>
+							<p class="header-new__text">
+								Рейтинг организации в Google
+							</p>
+						</div>
+					</div>
+					<img src="/img/new1.png" alt="" class="header-new__logo">
+				</div>
+			</div>
+		</header>
+		<section class="order" id="order">
+			<div class="container">
+				<h2>
+					зАПИШИТЕСЬ НА <span> БЕСПЛАТНОЕ</span> УДАЛЕНИЕ ВАШЕГО КАТАЛИЗАТОРА
+				</h2>
+				<div class="order__row d-flex">
+					<p>
+						Узнайте подходит ли Ваш авто под программу <br>
+						<span> бесплатной замены катализатора с чип-тюнингом</span>
+					</p>
+					<a href="#" class="order__btn btn btn_2">
+						ЧИП-ТЮНИНГ В ПОДАРОК
+					</a>
+				</div>
+				<form action="success.php" class="order__form js-form" id="popupResult" method="post">
+					<div class="order__flex d-flex">
+						<input type="tel" name="tel" required="" placeholder="+7 (---) --- -- --"
+							class="order__input tel form__field">
+						<input type="text" name="model" required="" placeholder="Марка и модель авто"
+							class="order__input form__field">
+						<input type="text" name="year" required="" placeholder="Год выпуска авто"
+							class="order__input form__field">
+						<input type="text" name="num" required="" placeholder="Объём двигателя"
+							class="order__input form__field">
+					</div>
+					<button class="order__button btn d-flex" data-submit>
+						<p>
+							Отправить
+						</p>
+					</button>
+					<p class="order__rights">
+						Отправляя заявку, я предоставляю согласие на обработку персональных данных
+					</p>
+				</form>
+			</div>
+		</section>
+
+		<section class="free" id="free">
+			<div class="container">
+				<p class="free__sub">
+					УСЛУГИ
+				</p>
+				<h2>
+					БЕСПЛАТНОЕ УДАЛЕНИЕ КАТАЛИЗАТОРА
+				</h2>
+				<p class="free__info">
+					Мы бесплатно удаляем катализаторы на любых автомобилях. <br>
+					У нас вы сможете установить лицензионную Евро 2, 3 или поставить <br>
+					обманку. Ниже представлены стоимость катализаторов на разных марках авто
+				</p>
+				<div class="swiper__box">
+
+					<div class="mySwiper1">
+						<div class="swiper-button-next">
+							<img src="/img/right.svg" alt="">
+						</div>
+						<div class="swiper-button-prev">
+							<img src="/img/left.svg" alt="">
+						</div>
+						<div class="swiper-wrapper">
+							<div class="swiper-slide swiper-slide_1">
+								<img src="/img/w.png" alt="" class="w">
+
+								<div class="free__item">
+									<img src="/img/a1.png" alt="" class="free__pic">
+									<p class="free__name">
+										Тойота
+									</p>
+									<div class="free__sum">
+										До 90 000 рублей
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide swiper-slide_2">
+								<img src="/img/w.png" alt="" class="w">
+								<img src="/img/a2.png" alt="" class="free__pic">
+								<p class="free__name">
+									Инфинити
+								</p>
+								<div class="free__sum">
+									До 120 000 рублей
+								</div>
+							</div>
+							<div class="swiper-slide swiper-slide_3">
+								<img src="/img/w.png" alt="" class="w">
+								<img src="/img/a3.png" alt="" class="free__pic">
+								<p class="free__name">
+									Мерседес
+								</p>
+								<div class="free__sum">
+									До 40 000 рублей
+								</div>
+							</div>
+							<div class="swiper-slide swiper-slide_4">
+								<img src="/img/w.png" alt="" class="w">
+								<img src="/img/a4.png" alt="" class="free__pic">
+								<p class="free__name">
+									Ауди
+								</p>
+								<div class="free__sum">
+									До 70 000 рублей
+								</div>
+							</div>
+							<div class="swiper-slide swiper-slide_1">
+								<img src="/img/w.png" alt="" class="w">
+								<img src="/img/a1.png" alt="" class="free__pic">
+								<p class="free__name">
+									Тойота
+								</p>
+								<div class="free__sum">
+									До 90 000 рублей
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<img src="/img/w.png" alt="" class="w">
+								<img src="/img/a4.png" alt="" class="free__pic">
+								<p class="free__name">
+									Ауди
+								</p>
+								<div class="free__sum">
+									До 70 000 рублей
+								</div>
+							</div>
+							<div class="swiper-slide swiper-slide_4">
+								<img src="/img/w.png" alt="" class="w">
+								<img src="/img/a4.png" alt="" class="free__pic">
+								<p class="free__name">
+									Ауди
+								</p>
+								<div class="free__sum">
+									До 70 000 рублей
+								</div>
+							</div>
+							<div class="swiper-slide swiper-slide_4">
+								<img src="/img/w.png" alt="" class="w">
+								<img src="/img/a4.png" alt="" class="free__pic">
+								<p class="free__name">
+									Ауди
+								</p>
+								<div class="free__sum">
+									До 70 000 рублей
+								</div>
+							</div>
+							<div class="swiper-slide swiper-slide_4">
+								<img src="/img/w.png" alt="" class="w">
+								<img src="/img/a4.png" alt="" class="free__pic">
+								<p class="free__name">
+									Ауди
+								</p>
+								<div class="free__sum">
+									До 70 000 рублей
+								</div>
+							</div>
+							<div class="swiper-slide swiper-slide_4">
+								<img src="/img/w.png" alt="" class="w">
+								<img src="/img/a4.png" alt="" class="free__pic">
+								<p class="free__name">
+									Ауди
+								</p>
+								<div class="free__sum">
+									До 70 000 рублей
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+				<a href="#" class="free__btn btn">
+					Рассчитать стоимость
+				</a>
+			</div>
+		</section>
+		<section class="calc" id="calc">
+			<div class="container">
+				<h2>
+					ОНЛАЙН-ПРОСЧЕТ СТОИМОСТИ РАБОТ
+				</h2>
+				<div class="calc__box">
+					<form action="success.php" class="calc__form js-form" id="popupResult" method="post">
+						<div class="calc__elem calc__one">
+							<ul class="calc__prog d-flex">
+								<li class="active"></li>
+								<li></li>
+								<li></li>
+								<li></li>
+								<!-- <li></li>
+								<li></li> -->
+							</ul>
+							<p class="calc__name">
+								Знаете ли вы точно, какие именно работы вам нужны?
+							</p>
+							<div class="calc__flex d-flex">
+								<div class="calc__item">
+									<input class="form-check-input custom-checkbox" type="radio" name="formKitchen" id="form1"
+										value="Знаю">
+									<label class="form-check-label " for="form1">
+										Да, знаю
+									</label>
+								</div>
+								<div class="calc__item">
+									<input class="form-check-input custom-checkbox" type="radio" name="formKitchen" id="form2"
+										value="Не знаю">
+									<label class="form-check-label " for="form2">
+										Нет, не знаю
+									</label>
+								</div>
+							</div>
+							<div class="calc__buttons d-flex">
+								<div class="calc__prev btn" style="display: none;">
+									Назад
+								</div>
+								<button class="calc__btn calc__btn_one btn">Вперёд</button>
+							</div>
+						</div>
+						<div class="calc__elem calc__two" style="display: none;">
+							<ul class=" calc__prog d-flex">
+								<li></li>
+								<li class="active"></li>
+								<li></li>
+								<li></li>
+								<!-- <li></li>
+								<li></li> -->
+							</ul>
+							<p class="calc__name">
+								Пожалуйста, выберите услугу для просчета:
+							</p>
+							<div class="def__select">
+								<div id="wapper">
+									<div class="style1">
+										<select class="select">
+											<option value="1">Сварочные работы по автомобилям</option>
+											<option value="2">Ремонт глушителя</option>
+											<option value="3">Замена резонатора</option>
+											<option value="3">Замена банки глушителя</option>
+											<option value="3">Замена фланца</option>
+											<option value="3">Замена демпфера</option>
+											<option value="3">Замена графитового кольца глушителя</option>
+											<option value="3">Замена части выхлопной системы (трассы)</option>
+											<option value="3">Замена катализатора на пламегаситель</option>
+										</select>
+									</div>
+									<div id="event-change"></div>
+								</div>
+							</div>
+							<div class="calc__buttons d-flex">
+								<div class="calc__prev btn">
+									Назад
+								</div>
+								<button class="calc__btn calc__btn_two btn">Вперёд</button>
+							</div>
+						</div>
+						<div class="calc__elem calc__three" style="display: none;">
+							<ul class=" calc__prog d-flex">
+								<li></li>
+								<li></li>
+								<li class="active"></li>
+								<li></li>
+								<!-- <li></li>
+								<li></li> -->
+							</ul>
+							<p class="calc__name">
+								Пожалуйста, укажите данные вашего автомобиля:
+							</p>
+							<div class="order__flex d-flex">
+								<input type="text" name="model" required="" placeholder="Марка"
+									class="order__input form__field">
+								<input type="text" name="model" required="" placeholder="Модель"
+									class="order__input form__field">
+								<input type="text" name="year" required="" placeholder="Год выпуска авто"
+									class="order__input form__field">
+								<input type="text" name="num" required="" placeholder="Количество л.с."
+									class="order__input form__field">
+							</div>
+							<div class="calc__buttons d-flex">
+								<div class="calc__prev btn">
+									Назад
+								</div>
+								<button class="calc__btn calc__btn_three btn">Вперёд</button>
+							</div>
+						</div>
+						<div class="calc__elem calc__four" style="display: none;">
+							<ul class=" calc__prog d-flex">
+								<li></li>
+								<li></li>
+								<li></li>
+								<li class="active"></li>
+								<!-- <li></li>
+								<li></li> -->
+							</ul>
+							<p class="calc__name">
+								Знаете ли вы точно, какие именно работы вам нужны?
+							</p>
+							<div class="order__flex d-flex">
+								<input type="text" name="name" required="" placeholder="Имя" class="order__input form__field">
+								<input type="tel" name="tel" required="" placeholder="+7 (---) --- -- --"
+									class="order__input tel form__field">
+								<div id="wapper">
+									<div class="style1">
+										<select class="select">
+											<option value="1">Ул. 9 Соколиной горы 8с8</option>
+											<option value="2">Ул. 9 Парковая</option>
+											<option value="3">Ул. Нижние поля 29с1</option>
+										</select>
+									</div>
+									<div id="event-change"></div>
+								</div>
+							</div>
+							<div class="calc__buttons d-flex">
+								<div class="calc__prev btn">
+									Назад
+								</div>
+								<button class="order__button btn d-flex" data-submit>
+									<p>
+										Получить просчёт
+									</p>
+								</button>
+							</div>
+						</div>
+					</form>
+				</div>
+		</section>
+		<section class="rev" id="rev">
+			<div class="container">
+				<h2>
+					ОТЗЫВЫ
+				</h2>
+				<div class="rev__box">
+					<div class="swiper-button-next2 arr">
+						<img src="/img/right2.svg" alt="">
+					</div>
+					<div class="swiper-button-prev2 arr">
+						<img src="/img/left2.svg" alt="">
+					</div>
+					<div class="swiper swiper2">
+						<div class="swiper-wrapper">
+							<div class="swiper-slide">
+								<div class="rev__block">
+									<div class="rev__stars d-flex">
+										<img src="/img/star1.svg" alt="">
+										<img src="/img/star1.svg" alt="">
+										<img src="/img/star1.svg" alt="">
+										<img src="/img/star1.svg" alt="">
+										<img src="/img/star1.svg" alt="">
+									</div>
+									<p class="rev__text">
+										Очень круто, мне всё очень <br> понравилось, профессионалы своего дела,
+										клиентоориентированные.
+										<br>
+										Всё было сдланно качественно, быстро и хорошо. Дали гарантию <br>
+										на год, что явялется плюсом.
+									</p>
+								</div>
+								<div class="rev__info d-flex">
+									<img src="/img/ava1.png" alt="" class="rev__ava">
+									<div class="rev__content">
+										<p class="rev__name">
+											Алексей Бондарев
+										</p>
+										<p class="rev__car">
+											Audi
+										</p>
+										<p class="rev__data">
+											09.02.2023
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="rev__block">
+									<div class="rev__stars d-flex">
+										<img src="/img/star1.svg" alt="">
+										<img src="/img/star1.svg" alt="">
+										<img src="/img/star1.svg" alt="">
+										<img src="/img/star1.svg" alt="">
+										<img src="/img/star2.svg" alt="">
+									</div>
+									<p class="rev__text">
+										Ребята толковые, всё сделали хорошо, снял звезду за долгое ожидание. Выдали гарантию, как
+										и
+										сказанно было изначально, всё понравилось, если что обращусь ещё
+									</p>
+								</div>
+								<div class="rev__info d-flex">
+									<img src="/img/ava2.png" alt="" class="rev__ava">
+									<div class="rev__content">
+										<p class="rev__name">
+											Дмитрий Борз
+										</p>
+										<p class="rev__car">
+											BMW
+										</p>
+										<p class="rev__data">
+											09.02.2023
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="rev__block">
+									<div class="rev__stars d-flex">
+										<img src="/img/star1.svg" alt="">
+										<img src="/img/star1.svg" alt="">
+										<img src="/img/star1.svg" alt="">
+										<img src="/img/star1.svg" alt="">
+										<img src="/img/star1.svg" alt="">
+									</div>
+									<p class="rev__text">
+										Очень круто, мне всё очень <br> понравилось,профессионалы своего дела,
+										клиентоориентированные.
+										<br>
+										Всё было сдланно качественно, быстро и хорошо. Дали гарантию <br>
+										на год, что явялется плюсом.
+									</p>
+								</div>
+								<div class="rev__info d-flex">
+									<img src="/img/ava1.png" alt="" class="rev__ava">
+									<div class="rev__content">
+										<p class="rev__name">
+											Алексей Бондарев
+										</p>
+										<p class="rev__car">
+											Audi
+										</p>
+										<p class="rev__data">
+											09.02.2023
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="rev__block">
+									<div class="rev__stars d-flex">
+										<img src="/img/star1.svg" alt="">
+										<img src="/img/star1.svg" alt="">
+										<img src="/img/star1.svg" alt="">
+										<img src="/img/star1.svg" alt="">
+										<img src="/img/star1.svg" alt="">
+									</div>
+									<p class="rev__text">
+										Очень круто, мне всё очень <br> понравилось,профессионалы своего дела,
+										клиентоориентированные.
+										<br>
+										Всё было сдланно качественно, быстро и хорошо. Дали гарантию <br>
+										на год, что явялется плюсом.
+									</p>
+								</div>
+								<div class="rev__info d-flex">
+									<img src="/img/ava1.png" alt="" class="rev__ava">
+									<div class="rev__content">
+										<p class="rev__name">
+											Алексей Бондарев
+										</p>
+										<p class="rev__car">
+											Audi
+										</p>
+										<p class="rev__data">
+											09.02.2023
+										</p>
+									</div>
+								</div>
+							</div>
+							<div class="swiper-slide">
+								<div class="rev__block">
+									<div class="rev__stars d-flex">
+										<img src="/img/star1.svg" alt="">
+										<img src="/img/star1.svg" alt="">
+										<img src="/img/star1.svg" alt="">
+										<img src="/img/star1.svg" alt="">
+										<img src="/img/star1.svg" alt="">
+									</div>
+									<p class="rev__text">
+										Очень круто, мне всё очень <br> понравилось,профессионалы своего дела,
+										клиентоориентированные.
+										<br>
+										Всё было сдланно качественно, быстро и хорошо. Дали гарантию <br>
+										на год, что явялется плюсом.
+									</p>
+								</div>
+								<div class="rev__info d-flex">
+									<img src="/img/ava1.png" alt="" class="rev__ava">
+									<div class="rev__content">
+										<p class="rev__name">
+											Алексей Бондарев
+										</p>
+										<p class="rev__car">
+											Audi
+										</p>
+										<p class="rev__data">
+											09.02.2023
+										</p>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+		</section>
+		<div style="display:none;">
+			<div class="box-modal" id="popup-call">
+				<div class="popup-call__box popup">
+					<div class="box-modal__close articmodal-close">
+						<img src="img/close2.svg" alt="" class="svg">
+					</div>
+					<h2 class="popup__title">
+						обратная связь
+					</h2>
+					<form action="success.php" class="form js-form" id="popupResult" method="post">
+						<input type="text" placeholder="ваше имя" name="name" class="form__field" required="">
+						<input type="tel" placeholder="ваш номер телефона" name="tel" class="form__field tel" required="">
+						<button class="btn btn_2" data-submit>
+							связаться с нами <img src="img/arr.svg" alt="" class="svg">
+						</button>
+					</form>
+				</div>
+			</div>
+		</div>
+		<div style="display:none;">
+			<div class="box-modal" id="popup-thank">
+				<div class="popup-call__box popup3">
+					<div class="box-modal__close articmodal-close">
+						<img src="img/close2.svg" alt="" class="svg">
+					</div>
+					<h2 class="popup__title">
+						Спасибо за заявку!
+					</h2>
+					<p class="popup__text">
+						Мы свяжемся с вами в ближайшее время.
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+	<script src="https://code.jquery.com/jquery-3.3.1.min.js?ver=5.1"></script>
+	<script src="js/all.js"></script>
+</body>
+
+</html>
